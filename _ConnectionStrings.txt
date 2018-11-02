@@ -1,3 +1,15 @@
-Azure SQL DB:
+Azure SQL DB: azureTryOut
+username: martin_adm85
+pwd: 8519..wasinet
+Server=tcp:azuretryout.database.windows.net,1433;Initial Catalog=azureTryOut;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+Server=tcp:azuretryout.database.windows.net,1433;Initial Catalog=azureTryOut;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+Server=tcp:azuretryout.database.windows.net,1433;Initial Catalog=azureTryOut;Persist Security Info=False;User ID=martin_adm85;Password=8519..wasinet;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 Server=tcp:azuretryout.database.windows.net,1433;Initial Catalog=azureTryOut;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 
+Deployment User:
+username: MartinSt85
+pwd: 8519Wasinet
+
+az webapp deployment user set --user-name MartinSt85 --password 8519Wasinet
+
+git remote add azure https://MartinSt85@azureTryOut.scm.azurewebsites.net/azureTryOut.git

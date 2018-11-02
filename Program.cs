@@ -13,6 +13,8 @@ namespace DotNetCoreSqlDb
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
+
+                System.Diagnostics.Debug.WriteLine("start");
         }
 
         public static IWebHost BuildWebHost(string[] args) =>

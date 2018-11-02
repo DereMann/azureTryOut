@@ -13,3 +13,7 @@ pwd: 8519Wasinet
 az webapp deployment user set --user-name MartinSt85 --password 8519Wasinet
 
 git remote add azure https://MartinSt85@azureTryOut.scm.azurewebsites.net/azureTryOut.git
+
+Lius app: e54ee1aa1880428783c908f6c804a149
+
+git remote add github https://github.com/DereMann/azureTryOut.git
